@@ -51,12 +51,20 @@ table {
 /*my code below this line*/
 
 
+
+
 *{
     box-sizing: border-box;
     /* border: 1px solid black; */
     font-family: 'Open Sans', sans-serif;
 
 }
+
+body {
+    height:100%;
+    width: 100%;
+}
+
 .header {
     background-color:pink;
     color:white;
@@ -77,20 +85,22 @@ table {
 .header #h1 {
     font-size:3rem;
     color:black;
+    text-shadow: 2px 2px white;
     width:100%;
 }
 
 
 .nav {
-    width:40%;
+    width:50%;
     height:100%;
 
 }
 .nav button {
-    background-color:#853d81;
+    background-color:fuchsia;
     color:white;
     padding:5px;
-    margin:2%;
+    margin:4%;
+    
 }
 
 
@@ -123,4 +133,41 @@ table {
     padding:5px;
     margin-left: 40%;
     margin-right: 35%;
+}
+
+.gallery {
+    border: 2px solid red;
+    margin-top:2%;
+    width: 100%;
+    height:500px;
+    padding:1%;
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.gallery #div1 {
+    border: 2px solid blue;
+    width:10%;
+    height:40%;
+}
+.gallery #div2 {
+    border: 2px solid purple;
+    width:20%;
+}
+.gallery #div3 {
+    border: 2px solid purple;
+    width:20%;
+}
+.gallery #div4 {
+    border: 2px solid purple;
+    width:20%;
+}
+.gallery #div5 {
+    border: 2px solid purple;
+    width:20%;
+}
+.gallery #div6 {
+    border: 2px solid purple;
+    width:20%;
+    height:20%;
 }
