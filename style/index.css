@@ -136,38 +136,87 @@ body {
 }
 
 .gallery {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top:2%;
     width: 100%;
-    height:500px;
-    padding:1%;
+    height:800px;
+    padding:3%;
     display: flex;
-    flex-wrap: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery #div1 {
     border: 2px solid blue;
-    width:10%;
-    height:40%;
+    /* background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60); */
+    width:25%;
+    margin:2%;
+    padding:1%;
+    text-align:center;
+    font-size: 1rem;
+    
 }
 .gallery #div2 {
     border: 2px solid purple;
-    width:20%;
+    width:25%;
+    margin:2%;
+    padding:1%;
+    text-align:center;
+    font-size: 1rem;
 }
 .gallery #div3 {
     border: 2px solid purple;
-    width:20%;
+    width:25%;
+    margin:2%;
+    padding:1%;
+    text-align:center;
+    font-size: 1rem;
 }
 .gallery #div4 {
     border: 2px solid purple;
-    width:20%;
+    width:25%;
+    margin:2%;
+    padding:1%;
+    text-align:center;
+    font-size: 1rem;
 }
 .gallery #div5 {
     border: 2px solid purple;
-    width:20%;
+    width:25%;
+    margin:2%;
+    padding:1%;
+    text-align:center;
+    font-size: 1rem;
 }
 .gallery #div6 {
     border: 2px solid purple;
-    width:20%;
-    height:20%;
+    width:25%;
+    margin:2%;
+    padding:1%;
+    text-align:center;
+    font-size: 1rem;
+}
+
+.gallery #div1 #picture1 {
+    border: 2px dashed red;
+    margin:auto;
+    background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    height:95%;
+    margin-bottom: 1%;
+}
+.gallery #div2 #picture2 {
+    border: 2px dashed red;
+    margin:auto;
+    background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    height:95%;
+    margin-bottom: 1%;
+}
+
+.gallery #div3 #picture3 {
+    border: 2px dashed red;
+    margin:auto;
+    background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    height:95%;
+    margin-bottom: 1%;
 }
