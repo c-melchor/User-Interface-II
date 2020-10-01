@@ -97,7 +97,7 @@ body {
     height:100%;
     margin-right:1%;
     text-align: right;
-    margin-top:2.5%;
+    margin-top:2%;
 
 }
 .nav a {
@@ -148,6 +148,7 @@ body {
     color:#49524d;;
     padding:2%;
     font-size:1rem;
+    border-radius:10px;
     display:grid;
     margin:auto;
 }
@@ -269,6 +270,7 @@ body {
 .footer #button7 {
     background-color: #49524d;
     color:white;
+    border-radius: 10px;
     padding:5px;
     font-size: 1rem;
     margin:2%;
