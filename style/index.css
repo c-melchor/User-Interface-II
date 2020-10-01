@@ -52,7 +52,6 @@ table {
 
 
 
-
 *{
     /* box-sizing: border-box;
     border: 1px solid black; */
@@ -112,7 +111,7 @@ body {
 
 .picture {
     padding:1%;
-    background-image: url(https://images.unsplash.com/photo-1548136480-4ad259749c46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-image: url(https://images.unsplash.com/photo-1544914379-806667cd9489?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
     display:flex;
     height:500px;
     width:60%;
@@ -133,7 +132,7 @@ body {
 }
 
 .picture p {
-    color:black;
+    color:white;
     width: 100%;
     padding:1%;
     font-size:1.5rem;
@@ -146,13 +145,11 @@ body {
     color:#49524d;;
     padding:2%;
     font-size:1rem;
-    margin-left: 40%;
-    margin-right: 35%;
-    margin-top:1%;
+    display:grid;
+    margin:auto;
 }
 
 .gallery {
-    /* border: 2px solid red; */
     margin-top:2%;
     color:white;
     text-shadow: 2px 2px black;
