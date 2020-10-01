@@ -92,25 +92,12 @@ table {
     padding:5px;
     margin:2%;
 }
-/* .nav #button2 {
-    background-color:#853d81;
-    color:white;
-    padding:2%;
-}
-.nav #button3 {
-    background-color:#853d81;
-    color:white;
-    padding:2%;
-}
-.nav #button4 {
-    background-color:#853d81;
-    color:white;
-    padding:2%;
-} */
 
 
 .picture {
-    border:10px solid red;
+    border:3px dotted black;
+    padding:1%;
+    background-image: url(https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
     display:flex;
     height:500px;
     width:60%;
@@ -123,12 +110,17 @@ table {
 }
 
 .picture .my-name {
-    color:fuchsia;
-    font-size: 3rem;
+    margin:auto;
+    padding:2%;
+    color:white;
+    font-size: 4rem;
+    text-shadow: 5px 2px black;
 }
 
 .picture #button5 {
-    background-color: darkgreen;
+    background-color:fuchsia;
     color:white;
     padding:5px;
+    margin-left: 40%;
+    margin-right: 35%;
 }
