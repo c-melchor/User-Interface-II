@@ -82,7 +82,7 @@ body {
     align-content: flex-end;
 }
 
-.header #h1 {
+.header .h1 {
     font-size:3rem;
     color:white;
     text-shadow: 2px 2px grey;
