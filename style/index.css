@@ -166,7 +166,7 @@ body {
     justify-content: center;
 }
 
-.gallery #div1 {
+.gallery .div1 {
     width:25%;
     margin:2%;
     padding:1%;
@@ -174,14 +174,14 @@ body {
     font-size: 1.2rem;
     
 }
-.gallery #div2 { 
+.gallery .div2 { 
     width:25%;
     margin:2%;
     padding:1%;
     text-align:center;
     font-size: 1.2rem;
 }
-.gallery #div3 {
+.gallery .div3 {
   
     width:25%;
     margin:2%;
@@ -189,21 +189,21 @@ body {
     text-align:center;
     font-size: 1.2rem;
 }
-.gallery #div4 {
+.gallery .div4 {
     width:25%;
     margin:2%;
     padding:1%;
     text-align:center;
     font-size: 1.2rem;
 }
-.gallery #div5 {
+.gallery .div5 {
     width:25%;
     margin:2%;
     padding:1%;
     text-align:center;
     font-size: 1.2rem;
 }
-.gallery #div6 {
+.gallery .div6 {
     width:25%;
     margin:2%;
     padding:1%;
@@ -211,38 +211,38 @@ body {
     font-size: 1.2rem;
 }
 
-.gallery #div1 #picture1 {
+.gallery .div1 .picture1 {
     margin:auto;
     background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60); 
     height:95%;
     margin-bottom: 1%;
 }
-.gallery #div2 #picture2 {
+.gallery .div2 .picture2 {
     margin:auto;
     background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
     height:95%;
     margin-bottom: 1%;
 }
 
-.gallery #div3 #picture3 {
+.gallery .div3 .picture3 {
     margin:auto;
     background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
     height:95%;
     margin-bottom: 1%;
 }
-.gallery #div4 #picture4 {
+.gallery .div4 .picture4 {
     margin:auto;
     background-image: url(https://images.unsplash.com/photo-1444393299901-d5270ace5365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
     height:95%;
     margin-bottom: 1%;
 }
-.gallery #div5 #picture5 {
+.gallery .div5 .picture5 {
     margin:auto;
     background-image: url(https://images.unsplash.com/photo-1572181766425-6dffe32bcf77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
     height:95%;
     margin-bottom: 1%;
 }
-.gallery #div6 #picture6 {
+.gallery .div6 .picture6 {
     margin:auto;
     background-image: url(https://images.unsplash.com/photo-1540927550647-43699cb14916?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
     height:95%;
