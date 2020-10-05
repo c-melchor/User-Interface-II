@@ -67,11 +67,11 @@ html {
 body {
     height:100%;
     width: 100%;
-    background-color: #49524d;
+    background-color: #838383;
 }
 
 .header {
-    background-color:#49524d;
+    background-color:#838383;
     color:white;
     width: 100%;
     height:20%;
@@ -96,9 +96,8 @@ body {
 
 
 .header .logo {
-    font-size:2rem;
+    font-size:3rem;
     color:white;
-    text-shadow: 2px 2px grey;
     width:40%;
     display: flex;
     justify-content: center;
@@ -119,8 +118,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
-    color: #49524d;
+    background-color: #ad9d9d;
+    color: d9adad;
     padding: .5rem;
 }
 
@@ -128,7 +127,7 @@ nav a:hover {
 
 .picture {
     padding:1%;
-    background-image: url(https://images.unsplash.com/photo-1544914379-806667cd9489?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-image: url(https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-repeat: no-repeat;
     width:60%;
@@ -149,12 +148,12 @@ nav a:hover {
 
 .picture .picture-h2 {
     font-size: 3.5rem;
-    color:white;
+    color:black;
 }
 
 .picture .picture-text {
     font-size: 2.5rem;
-    color:white;
+    color:black;
 
 }
 
@@ -166,7 +165,7 @@ nav a:hover {
 }
 
 #button5:hover {
-    background: #49524d;
+    background: #838383;
     color:white;
 }
 
@@ -191,7 +190,7 @@ nav a:hover {
 
 .gallery .div1 .picture1 {
     margin:auto;
-    background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60); 
+    background-image: url(https://images.unsplash.com/photo-1551610290-e153ec567dd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); 
     background-position: center;
     height:95%;
     margin-bottom: 1%;
@@ -206,7 +205,7 @@ nav a:hover {
 
 .gallery .div3 .picture3 {
     margin:auto;
-    background-image: url(https://images.unsplash.com/photo-1456400761117-a768c370cd6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-image: url(https://images.unsplash.com/photo-1549176755-e67f625da235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center;
 
     height:95%;
@@ -214,7 +213,7 @@ nav a:hover {
 }
 .gallery .div4 .picture4 {
     margin:auto;
-    background-image: url(https://images.unsplash.com/photo-1444393299901-d5270ace5365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-image: url(https://images.unsplash.com/photo-1519758437711-f9ae52e78a95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     height:95%;
     margin-bottom: 1%;
@@ -228,7 +227,7 @@ nav a:hover {
 }
 .gallery .div6 .picture6 {
     margin:auto;
-    background-image: url(https://images.unsplash.com/photo-1540927550647-43699cb14916?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-image: url(https://images.unsplash.com/photo-1553991562-5ee67c3adc35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     height:95%;
     margin-bottom: 1%;
@@ -236,7 +235,6 @@ nav a:hover {
 
 .footer {
     width: 100%;
-    background-color: white;
     
 }
 .footer .footer-links {
@@ -245,7 +243,7 @@ nav a:hover {
     justify-content: space-evenly;
     align-items: center;
     width:100%;
-    background-color:  #d1e0d8;
+    background-color: #d9adad;
 }
 
 .footer a {
@@ -253,9 +251,14 @@ nav a:hover {
     font-size: 2rem;
     color:#49524d;
 }
+
+.footer-links a:hover {
+    background:#49524d;
+    color:#d9adad;
+}
 .footer #button7 {
-    background-color: #49524d;
-    color:white;
+    background-color: white;
+    color:#838383;
     border-radius: 10px;
     padding:5px;
     font-size: 2rem;
@@ -263,8 +266,8 @@ nav a:hover {
 }
 
 #button7:hover {
- background:white;
- color:#49524d;
+ background:#838383;
+ color:white;
 }
 
 
@@ -423,17 +426,16 @@ nav a:hover {
     }
 
     .gallery {
-        width: 90%;
+        width: 95%;
         display: flex;
         flex-direction: row;
         flex-wrap:wrap;
         justify-content: space-around;
         align-items: center;
-        margin: 0 auto;
 
     }
     .gallery [class^=div]{
-      height:20%;
+      height: 17%;
     }
 
     .gallery p {
